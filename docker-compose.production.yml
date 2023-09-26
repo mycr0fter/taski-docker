@@ -16,7 +16,7 @@ services:
     image: mycr0fter/taski_backend
     env_file: .env
     volumes:
-      - static_volume:/backend_static
+      - static_volume:/static
   frontend:
     image: mycr0fter/taski_frontend  # Качаем с Docker Hub
     env_file: .env
